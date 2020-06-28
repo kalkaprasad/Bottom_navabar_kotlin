@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#F1F5F5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_margin="10dp"
+            android:elevation="20dp"
+            android:longClickable="true"
+            android:splitMotionEvents="true"
+            app:cardBackgroundColor="#AA00FF"
+            app:cardCornerRadius="20dp"
+            app:cardMaxElevation="50dp"
+            app:cardPreventCornerOverlap="true"
+            app:strokeWidth="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/pdf"
+                         />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/pdf_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#ffff"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:maxLength="25"
+                    android:text="DWM Lecture Notes"
+                    android:textSize="16dp">
+
+
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/read_pdf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="40dp"
+                android:text="View pdf"
+                android:textColor="#FCFCFD"></TextView>
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

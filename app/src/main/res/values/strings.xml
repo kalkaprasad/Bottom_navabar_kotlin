@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bottom_navbar_kotlin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="api">AIzaSyAhs6dsVGaKdKpRFiJaRwbXTe1ghOSlzGc</string>
+</resources>
